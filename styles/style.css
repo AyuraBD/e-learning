@@ -1,0 +1,218 @@
+/* Global Styles */
+:root{
+  --primary:#2570e8;
+}
+.btn-one{
+  border: 1px solid var(--primary);
+  color:#ffffff;
+  font-weight: bold;
+  padding:8px 20px;
+  border-radius: 5px;
+  transition: all 0.5s;
+  background-color: var(--primary);
+}
+.btn-one:hover{
+  background-color: transparent;
+  color:var(--primary);
+}
+section{
+  margin-bottom: 100px;
+}
+
+/* Header Top */
+#header_top{
+  padding:10px 0px;
+}
+#header_top .navbar-brand{
+  color:var(--primary);
+}
+#header_top .navbar-collapse{
+  justify-content: end;
+}
+
+/* Navigation Items */
+#header_top nav li{
+  margin:0px 10px;
+}
+#header_top nav li a{
+  font-size: 16px!important;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+#header_top nav li a:hover{
+  color:var(--primary);
+}
+#header_top nav li a.active{
+  color:var(--primary);
+}
+/* Banner Started */
+#banner{
+  margin-bottom: 100px;
+}
+#banner .carousel-item{
+  position: relative;
+}
+#banner .carousel-caption{
+  position:absolute;
+  top:0;
+  left:0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height:100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:#ffffff;
+  padding:0px 330px;
+}
+#banner .carousel-caption h1{
+  font-size:65px;
+  font-weight: 700;
+  margin-bottom:20px;
+}
+#banner .carousel-caption p{
+  font-size:18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+
+/* Course Started */
+#courses .heading{
+  padding:0px 120px;
+}
+
+/* Join Us Started */
+#join_us .row{
+  background-color: var(--primary);
+}
+#join_us button{
+  background-color: #ffffff;
+  padding:10px 20px;
+  color:var(--primary);
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight:600;
+  font-size:18px;
+  border:1px solid white;
+  transition: all 0.5s;
+  text-align: right;
+}
+#join_us a:hover{
+  background-color: transparent;
+  color:#ffffff;
+  transition: all 0.5s;
+}
+#join_us .right{
+  text-align: right;
+}
+#join_us{
+  
+}
+/* Footer */
+footer .privacy a{
+  text-decoration: none;
+  color:#ffffff;
+  margin:10px;
+}
+footer .privacy a:first-child{
+  position: relative;
+}
+footer .privacy a:first-child::before{
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 20px;
+  background-color: #ffffff;
+  right: -10px;
+  top: 4px;
+}
+footer .social li{
+  list-style: none;
+  display: inline-block;
+  width:45px;
+  height:45px;
+  margin:0px 10px;
+  color: var(--primary);
+  border:1px solid var(--primary);
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-size:18px;
+  padding: 10px;
+}
+footer .social li a{
+  transition: all 0.5s;
+}
+footer .social li:hover{
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+}
+footer .social li:hover a{
+  color:#ffffff;
+  transition: all 0.5s;
+}
+/* Tables Styles */
+@media (max-width:992px){
+  /* Banner */
+  #banner .carousel-caption{
+    padding:0px 100px;
+  }
+  #banner .carousel-caption h1{
+    font-size:40px;
+  }
+  /* Course Started */
+  #courses .heading{
+    padding:0px 0px;
+  }
+  #companies{
+    display: none;
+  }
+}
+/* Mobile Styles */
+@media (max-width:768px){
+  .btn-one{
+    padding:5px 10px;
+    font-size:15px;
+  }
+  #banner{
+    margin-bottom: 60px;
+  }
+  section{
+    margin-bottom: 60px;
+  }
+  /* header */
+  #header_top{
+    padding:5px 0px;
+  }
+  /* Banner */
+  #banner .carousel-caption{
+    padding:0px 40px;
+  }
+  #banner .carousel-caption h1{
+    font-size:30px;
+    margin-bottom: 5px;
+  }
+  #banner .carousel-caption p{
+    font-size:16px;
+    margin-bottom: 10px;
+  }
+  /* Course Started */
+  #courses .heading{
+    padding:0px 0px;
+  }
+  .course-item-cnt{
+    padding:30px;
+  }
+  /* Start Join Us */
+  #join_us{
+    text-align: center;
+  }
+  #join_us .left{
+    margin-bottom: 40px;
+  }
+  #join_us .right{
+    text-align: center;
+  }
+}
