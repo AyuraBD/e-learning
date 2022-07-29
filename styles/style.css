@@ -19,9 +19,6 @@
 section{
   margin-bottom: 100px;
 }
-.fa-star, .fa-star-half{
-  color:#f4ac0b
-}
 /* Header Top */
 #header_top{
   padding:10px 0px;
@@ -121,6 +118,19 @@ section{
 }
 #join_us{
   
+}
+/* Feedback */
+.fa-star, .fa-star-half{
+  color:#f4ac0b
+}
+#feedback .carousel-control-prev, #feedback .carousel-control-next{
+  width:40px;
+  padding:10px;
+  background-color: skyblue;
+  color:#ffffff;
+  border-radius: 50%;
+  height: 40px;
+  top:45%;
 }
 /* Footer */
 footer .privacy a{
