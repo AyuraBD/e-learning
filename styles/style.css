@@ -225,4 +225,8 @@ footer .social li:hover a{
   #join_us .right{
     text-align: center;
   }
+  /* Student */
+  .student{
+    margin-bottom: 30px;
+  }
 }
