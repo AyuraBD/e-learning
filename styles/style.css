@@ -132,6 +132,9 @@ section{
   height: 40px;
   top:45%;
 }
+#feedback .name p{
+  font-size:14px;
+}
 /* Footer */
 footer .privacy a{
   text-decoration: none;
@@ -240,5 +243,9 @@ footer .social li:hover a{
   /* Student */
   .student{
     margin-bottom: 30px;
+  }
+  /* Feedback */
+  #feedback .bottom{
+    justify-content: center;
   }
 }
