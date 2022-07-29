@@ -19,7 +19,9 @@
 section{
   margin-bottom: 100px;
 }
-
+.fa-star, .fa-star-half{
+  color:#f4ac0b
+}
 /* Header Top */
 #header_top{
   padding:10px 0px;
